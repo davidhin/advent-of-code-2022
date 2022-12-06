@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(OSX) Launch",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceRoot}/target/debug/advent-of-code-2022",
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "preLaunchTask": "Cargo build"
+    }
+  ]
+}

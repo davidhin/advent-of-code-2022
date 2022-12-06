@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "label": "Cargo build",
+      "command": "cargo build",
+      "type": "shell",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
